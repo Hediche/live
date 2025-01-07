@@ -10,7 +10,7 @@ import { DonationsComponent } from './donations/donations.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
