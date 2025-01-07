@@ -12,4 +12,6 @@ import { ActivitiesComponent } from './activities.component';
     CommonModule
   ]
 })
-export class ActivitiesModule { }
+export class ActivitiesModule {
+
+}

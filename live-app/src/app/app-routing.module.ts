@@ -7,7 +7,7 @@ import { DonationsComponent } from './donations/donations.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path:"" , component: HomeComponent},
+  { path: "" , component: HomeComponent},
   {path: "appointments", component: AppointmentsComponent},
   {path: "books", component: BooksComponent},
   {path: "activities", component: ActivitiesComponent},

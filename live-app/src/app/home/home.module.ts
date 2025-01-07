@@ -5,6 +5,9 @@ import { AppointmentsComponent } from '../appointments/appointments.component';
 import { BooksComponent } from '../books/books.component';
 import { ActivitiesComponent } from '../activities/activities.component';
 import { DonationsComponent } from '../donations/donations.component';
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from '../app-routing.module';
+import { AppComponent } from '../app.component';
 
 
 
@@ -17,7 +20,8 @@ import { DonationsComponent } from '../donations/donations.component';
     DonationsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+
   ]
-})
+  })
 export class HomeModule { }
